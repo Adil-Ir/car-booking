@@ -1,0 +1,24 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./app/**/*.{js,jsx,ts,tsx,mdx}",
+    "./components/**/*.{js,jsx,ts,tsx,mdx}"
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: "#0F766E",
+          light: "#14B8A6",
+          dark: "#0D4F4A"
+        },
+        accent: "#F97316"
+      },
+      boxShadow: {
+        soft: "0 18px 40px rgba(15, 23, 42, 0.18)"
+      }
+    }
+  },
+  plugins: []
+};
+
